@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<!--informasi tambahan-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navbar</title>
+	<style>
+	
+	.navbar {
+		background-color: lavender;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 25px;
+	}
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	.logo img {
+		width: 40px;
+	}
+	.text {
+		display: flex;
+		felx-direction: column;
+		line-height: 1.1;
+	}
+	.judul {
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.subjudul {
+		font-size: 14px;
+		color: grey;
+	}
+	.menu {
+		list-style: none;
+		display: flex;
+		gap: 20px;
+	}
+	.menu a {
+		color: black;
+		text-decoration: none;
+	}
+	.menu a:hover {
+		color: blue;
+	}
+	
+	.menu li a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+	
+	background-color: white;
+	color: skyblue;
+	padding: 10px 20px;
+	text-decoration:none;
+	font-weight: bold;
+	border-radius: 5px;
+	}
+	
+					
+	.menu li a:hover {
+		background-color: grey;
+		color: white;
+	}
+	
+	</style>
+</head>
+<body style="margin: 0; padding: 0">
+	<nav class="navbar">
+		<div class="logo">
+			<img src="asets/img/wikrama-logo.png">
+		</div>
+		<ul class="menu" >
+			<li><a href="#">Dashboard</a></li>
+			<li><a href="latihanprofildancss.html">Profil</a></li>
+			<li><a href="#">Pengguna</a></li>
+			<li><a href="Latihan Card(index)">Buku Tamu</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>

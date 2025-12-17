@@ -1,0 +1,28 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+    }
+    
+    .semuanya {
+        max-width: 600px;
+        margin: auto;
+        background: rgb(233, 246, 254);
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-section input {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+    }
+
+    script {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+    }
